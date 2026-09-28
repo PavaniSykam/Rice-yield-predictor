@@ -1,0 +1,112 @@
+{
+  "best_model": "XGBoost",
+  "comparison_plot": "assets/plots/comparison.png",
+  "sklearn_version": "1.9.1",
+  "xgboost_version": "3.4.1",
+  "models": {
+    "XGBoost": {
+      "plot": "assets/plots/XGBoost.png",
+      "r2": 0.990423321723938,
+      "rmse": 905.4617606503325,
+      "mae": 655.6676025390625,
+      "has_importance": true,
+      "best_params": {
+        "feature_selection__k": "20",
+        "model__learning_rate": "0.1",
+        "model__max_depth": "3",
+        "model__n_estimators": "100"
+      }
+    },
+    "RandomForest": {
+      "plot": "assets/plots/RandomForest.png",
+      "r2": 0.9902512199737382,
+      "rmse": 913.5604142453129,
+      "mae": 659.4082142131117,
+      "has_importance": true,
+      "best_params": {
+        "feature_selection__k": "10",
+        "model__max_depth": "5",
+        "model__n_estimators": "100"
+      }
+    },
+    "GradientBoosting": {
+      "plot": "assets/plots/GradientBoosting.png",
+      "r2": 0.9902293436981054,
+      "rmse": 914.584855261399,
+      "mae": 659.1178662916498,
+      "has_importance": true,
+      "best_params": {
+        "feature_selection__k": "10",
+        "model__learning_rate": "0.1",
+        "model__n_estimators": "100"
+      }
+    },
+    "DecisionTree": {
+      "plot": "assets/plots/DecisionTree.png",
+      "r2": 0.9902194406260806,
+      "rmse": 915.0482277100053,
+      "mae": 660.1687043267019,
+      "has_importance": true,
+      "best_params": {
+        "feature_selection__k": "10",
+        "model__max_depth": "5",
+        "model__min_samples_split": "2"
+      }
+    },
+    "KNN": {
+      "plot": "assets/plots/KNN.png",
+      "r2": 0.9890130524329608,
+      "rmse": 969.8412753317785,
+      "mae": 700.689255189255,
+      "has_importance": false,
+      "best_params": {
+        "feature_selection__k": "15",
+        "model__n_neighbors": "7"
+      }
+    },
+    "Lasso": {
+      "plot": "assets/plots/Lasso.png",
+      "r2": 0.9877976144634206,
+      "rmse": 1022.0791019297662,
+      "mae": 762.7454155351552,
+      "has_importance": true,
+      "best_params": {
+        "feature_selection__k": "10",
+        "model__alpha": "1"
+      }
+    },
+    "LinearRegression": {
+      "plot": "assets/plots/LinearRegression.png",
+      "r2": 0.9877949770742976,
+      "rmse": 1022.1895506062948,
+      "mae": 763.1856618670595,
+      "has_importance": true,
+      "best_params": {
+        "feature_selection__k": "10"
+      }
+    },
+    "Ridge": {
+      "plot": "assets/plots/Ridge.png",
+      "r2": 0.9877949694323003,
+      "rmse": 1022.1898706207946,
+      "mae": 763.1837772522341,
+      "has_importance": true,
+      "best_params": {
+        "feature_selection__k": "10",
+        "model__alpha": "0.01"
+      }
+    },
+    "SVR": {
+      "plot": "assets/plots/SVR.png",
+      "r2": 0.9863672525438509,
+      "rmse": 1080.3235218218692,
+      "mae": 774.8712769615664,
+      "has_importance": true,
+      "best_params": {
+        "feature_selection__k": "20",
+        "model__C": "10",
+        "model__kernel": "linear"
+      }
+    }
+  }
+}
