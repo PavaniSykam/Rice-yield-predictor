@@ -1,0 +1,43 @@
+Creating a new Next.js app in [32mD:\Projects2\paddy_yield_prediction\rice-yield-predictor\frontend[39m.
+
+[1mUsing npm.[22m
+
+Initializing project with template: app-tw 
+
+
+Installing dependencies:
+- [36mnext[39m
+- [36mreact[39m
+- [36mreact-dom[39m
+
+Installing devDependencies:
+- [36m@tailwindcss/postcss[39m
+- [36m@types/node[39m
+- [36m@types/react[39m
+- [36m@types/react-dom[39m
+- [36meslint[39m
+- [36meslint-config-next[39m
+- [36mtailwindcss[39m
+- [36mtypescript[39m
+
+npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\D:\\Projects2\\paddy_yield_prediction\\rice-yield-predictor\\frontend\\node_modules\\next',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'D:\Projects2\paddy_yield_prediction\rice-yield-predictor\frontend\node_modules\next\dist\compiled\@babel'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'D:\\Projects2\\paddy_yield_prediction\\rice-yield-predictor\\frontend\\node_modules\\next\\dist\\compiled\\@babel'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 3221225794
+npm error path D:\Projects2\paddy_yield_prediction\rice-yield-predictor\frontend\node_modules\unrs-resolver
+npm error command failed
+npm error command C:\Windows\system32\cmd.exe /d /s /c node postinstall.js
+npm error A complete log of this run can be found in: C:\Users\mario\AppData\Local\npm-cache\_logs\2026-09-28T11_21_17_559Z-debug-0.log
+
+Aborting installation.
+  [36mnpm install[39m has failed.
+

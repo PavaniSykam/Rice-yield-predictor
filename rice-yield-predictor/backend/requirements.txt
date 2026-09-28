@@ -1,0 +1,11 @@
+# Backend — Rice Yield Predictor (Django + DRF)
+# Versions pinned to the locally trained pipeline's environment.
+Django==6.0.3
+djangorestframework==3.18.1
+django-cors-headers==4.9.0
+python-dotenv==1.2.2
+joblib==1.6.0
+pandas==3.0.5
+numpy==2.5.3
+scikit-learn==1.9.1
+xgboost==3.4.1

@@ -1,0 +1,9 @@
+# Native Streamlit widgets follow this palette so they match the custom
+# light theme defined in app.py. Keep these values in sync with the CSS :root.
+[theme]
+base = "light"
+primaryColor = "#2E7D5B"
+backgroundColor = "#F5F6F8"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1A2233"
+font = "sans serif"
